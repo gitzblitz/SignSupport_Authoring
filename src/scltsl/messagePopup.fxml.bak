@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="160.0" prefWidth="367.0" xmlns:fx="http://javafx.com/fxml" fx:controller="scltsl.MessagePopupController">
+  <children>
+    <Text layoutX="40.0" layoutY="47.0" scaleX="3.3941827611410362" scaleY="1.4378365294233273" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+    <Button layoutX="156.0" layoutY="114.0" mnemonicParsing="false" text="Button" />
+  </children>
+</AnchorPane>

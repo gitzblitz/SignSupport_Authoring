@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lesson lesson_title="Files and folders" lesson_id="01" lesson_type="E">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 1.mp4</video>
+	</screen>
+	<screen>
+		<screenID>lesson_description_2</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 2.mp4</video>
+	</screen>
+	<screen>
+		<screenID>lesson_description_3</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 3.mp4</video>
+	</screen>
+	<screen>
+		<screenID>task_description_0</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 10.mp4</video>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 11.mp4</video>
+		<image>C:\Users\gngethe\Dropbox\CS Masters\Mobile Mockups\Screenshot_2013-11-20-22-11-07_galaxys4_black_portrait.png</image>
+	</screen>
+	<screen>
+		<screenID>step_2</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Files and media intro 12.mp4</video>
+		<image>C:\Users\gngethe\Dropbox\CS Masters\Resources\images\caps_lock_text.jpg</image>
+	</screen>
+	<screen>
+		<screenID>step_3</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Task 4.mp4</video>
+		<image>C:\Users\gngethe\Dropbox\CS Masters\Resources\images\caps_lock_text.jpg</image>
+	</screen>
+	<screen>
+		<screenID>step_4</screenID>
+		<video>E:\CS Masters 2013\Lessons\E6 - Files and Media\Task 3.mp4</video>
+	</screen>
+</lesson>
+

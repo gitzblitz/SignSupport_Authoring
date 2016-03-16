@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<course xmlns="http://www.w3.org/2005/Atom">
+	<course_id>04</course_id>
+	<course_title type="text">DCCT 3</course_title>
+	<unit>
+		<unit_title type="text">Word processing</unit_title>
+		<unit_id>01</unit_id>
+		<lesson lesson_title="Lesson on files" lesson_id="02" lesson_type="S">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>/video/S/Files and media intro 6.mp4</video>
+	</screen>
+	<screen>
+		<screenID>task_description2</screenID>
+		<video>/video/S/Files and media intro 9.mp4</video>
+		<video>/video/S/Files and media intro 10.mp4</video>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<image>/shared_images/Screenshot_2013-11-20-22-11-07_galaxys4_black_portrait.png</image>
+		<video>/video/S/Task 5.mp4</video>
+	</screen>
+		</lesson>
+		<lesson lesson_title="Files and folders" lesson_id="01" lesson_type="E">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>/video/E/Files and media intro 1.mp4</video>
+	</screen>
+	<screen>
+		<screenID>lesson_description_2</screenID>
+		<video>/video/E/Files and media intro 2.mp4</video>
+	</screen>
+	<screen>
+		<screenID>lesson_description_3</screenID>
+		<video>/video/E/Files and media intro 3.mp4</video>
+	</screen>
+	<screen>
+		<screenID>task_description2</screenID>
+		<video>/video/E/Files and media intro 10.mp4</video>
+		<video>/video/E/Files and media intro 11.mp4</video>
+		<image>/shared_images/Screenshot_2013-11-20-22-11-07_galaxys4_black_portrait.png</image>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<video>/video/E/Files and media intro 12.mp4</video>
+		<image>/shared_images/caps_lock_text.jpg</image>
+	</screen>
+	<screen>
+		<screenID>step_2</screenID>
+		<video>/video/E/Task 4.mp4</video>
+		<image>/shared_images/caps_lock_text.jpg</image>
+	</screen>
+	<screen>
+		<screenID>step_3</screenID>
+		<video>/video/E/Task 3.mp4</video>
+	</screen>
+		</lesson>
+	</unit>
+</course>

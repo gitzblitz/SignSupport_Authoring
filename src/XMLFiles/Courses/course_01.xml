@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<course xmlns="http://www.w3.org/2005/Atom" course_id="01" course_title="e learner self study">
+	<course_id>01</course_id>
+	<course_title type="text">e learner self study</course_title>
+	<unit_place_holder>02</unit_place_holder>
+	<unit_place_holder>01</unit_place_holder>
+</course>
+

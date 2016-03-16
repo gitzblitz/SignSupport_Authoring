@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<course xmlns="http://www.w3.org/2005/Atom" course_id="02" course_title="DCCT">
+	<unit unit_title="Presentations" unit_id="03">
+	<lesson lesson_title="Whatever 2" lesson_id="07" lesson_type="E">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>/video/Task 3 - Password.mp4</video>
+		<vid_caption>Task 3 - Password</vid_caption>
+	</screen>
+	<screen>
+		<screenID>task_description2</screenID>
+		<video>/video/Task 5 - Open Word.mp4</video>
+		<vid_caption>Task 5 - Open Word</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<video>/video/Task 6 - How to open MS Word.mp4</video>
+		<vid_caption>Task 6 - How to open MS Word</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_2</screenID>
+		<video>/video/Task 12 - Type your heading.mp4</video>
+		<vid_caption>Task 12 - Type your heading</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_3</screenID>
+		<video>/video/Task 19 - Text wrapping.mp4</video>
+		<vid_caption>Task 19 - Text wrapping</vid_caption>
+		<image>/shared_images/addShape_dropdown.png</image>
+	</screen>
+		</lesson>
+	</unit>
+</course>

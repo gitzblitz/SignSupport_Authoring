@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.999977929685" prefWidth="1134.0" xmlns:fx="http://javafx.com/fxml" fx:controller="scltsl.CourseController">
+  <children>
+    <AnchorPane id="AnchorPane" layoutY="8.0" minHeight="688.7070922851562" prefHeight="688.7070922851562" prefWidth="1134.0">
+      <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="893.0" layoutY="112.0" prefWidth="93.0" text="O Lessons:">
+          <font>
+            <Font name="System Bold" size="16.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="893.0" layoutY="300.0" text="S Lessons:" />
+        <AnchorPane layoutX="202.0" layoutY="48.0" minHeight="58.0" minWidth="364.0" prefHeight="58.0" prefWidth="364.0000999999975">
+          <children>
+            <ImageView cache="true" fitHeight="42.29290771484375" fitWidth="42.29290771484375" layoutX="304.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/Editing-Delete-icon.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="46.29290771484375" fitWidth="46.29290771484375" layoutX="194.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/export-512.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="46.29290771484375" fitWidth="46.29290771484375" layoutX="251.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/Play-icon.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="72.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/Save.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <Line endX="36.0" endY="539.0" layoutX="650.0" layoutY="111.0" startX="35.0" startY="-117.0" />
+            <ImageView fitHeight="46.29290771484375" fitWidth="46.29290771484375" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/Create.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="46.29290771484375" fitWidth="46.29290771484375" layoutX="137.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/Save-icon.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <Line endX="16.0" endY="526.0" layoutX="-17.0" layoutY="124.0" startX="19.0" startY="-138.0" />
+            <Label layoutX="232.0" layoutY="68.0" prefWidth="159.3333740234375" text="Create Units">
+              <font>
+                <Font name="System Bold Italic" size="18.0" fx:id="x3" />
+              </font>
+              <textFill>
+                <Color blue="0.400" green="0.000" red="0.031" fx:id="x4" />
+              </textFill>
+            </Label>
+            <Label layoutX="7.0" layoutY="105.0" prefHeight="21.0" prefWidth="105.78076171875" text="Unit Title:">
+              <font>
+                <Font name="System Bold" size="14.0" fx:id="x2" />
+              </font>
+            </Label>
+            <TextField fx:id="unitTitle" layoutX="104.0" layoutY="104.0" prefWidth="200.0" promptText="enter unit title" />
+            <ComboBox fx:id="unitList" layoutX="104.0" layoutY="104.0" onAction="#selectUnit" prefHeight="21.0" prefWidth="200.0" promptText="select unit to edit">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+        </AnchorPane>
+        <Label font="$x1" layoutX="5.0" layoutY="447.0" prefWidth="160.0" text="Other Units Created:" />
+        <ImageView fitHeight="103.08125915468678" fitWidth="186.99998474121094" layoutX="7.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@icons/Logo.PNG" preserveRatio="false" smooth="false" />
+          </image>
+        </ImageView>
+        <ScrollPane layoutX="209.0" layoutY="191.0" prefHeight="474.0" prefWidth="667.0">
+          <content>
+            <AnchorPane id="Content" fx:id="unitPane" minHeight="0.0" minWidth="0.0" prefHeight="459.0" prefWidth="667.0">
+              <children>
+                <Label fx:id="oLabel" font="$x2" layoutX="14.0" layoutY="46.0" prefHeight="21.0" prefWidth="145.0" text="O Lessons:" />
+                <Label fx:id="sLabel" font="$x2" layoutX="14.0" layoutY="209.0" prefHeight="21.0" prefWidth="145.0" text="S Lessons:" />
+                <Rectangle id="tdDropRegion" fx:id="typeODropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="39.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+                  <effect>
+                    <BoxBlur />
+                  </effect>
+                </Rectangle>
+                <Rectangle id="s1DropRegion" fx:id="typeSDropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="197.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+                  <effect>
+                    <BoxBlur />
+                  </effect>
+                </Rectangle>
+                <Rectangle id="tdDropRegion" fx:id="typeEDropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="355.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+                  <effect>
+                    <BoxBlur />
+                  </effect>
+                </Rectangle>
+                <Label fx:id="eLabel" font="$x2" layoutX="14.0" layoutY="367.0" prefHeight="21.0" prefWidth="145.0" text="E Lessons:" />
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+        <ListView fx:id="typeOLessonList" layoutX="893.0" layoutY="139.0" onDragDetected="#handleOnDragDetected" onDragDone="#handleOnDragDone" prefHeight="158.0" prefWidth="228.0" />
+        <Label layoutX="961.0" layoutY="70.0" prefWidth="92.7152099609375" text="Lessons">
+          <font>
+            <Font name="System Bold" size="18.0" />
+          </font>
+        </Label>
+        <TreeView id="lessons" layoutX="5.0" layoutY="519.0" prefHeight="131.0" prefWidth="187.0" />
+        <Button id="button" layoutX="46.0" layoutY="665.0" onAction="#saveCourse" text="Save Course" />
+        <Button id="button" layoutX="46.0" layoutY="665.0" onAction="#exportCourse" text="Export Course" />
+        <MenuBar blendMode="DARKEN" minHeight="21.0" pickOnBounds="true" prefHeight="29.0" prefWidth="568.5" scaleX="2.0" scaleY="2.0" scaleZ="2.0" useSystemMenuBar="true" AnchorPane.rightAnchor="288.0" AnchorPane.topAnchor="0.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" text="New Lesson" />
+                <MenuItem mnemonicParsing="false" text="Save" />
+                <MenuItem mnemonicParsing="false" text="Save as" />
+                <MenuItem mnemonicParsing="false" text="Export" />
+                <MenuItem mnemonicParsing="false" text="Exit" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Upload Resources" />
+              </items>
+            </Menu>
+            <Menu id="" style="" styleClass="Size" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" text="FAQ" />
+                <MenuItem mnemonicParsing="false" text="Online Support" />
+                <MenuItem mnemonicParsing="false" text="Manual" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+              <items>
+                <MenuItem mnemonicParsing="false" text="About" />
+              </items>
+            </Menu>
+          </menus>
+          <rotationAxis>
+            <Point3D x="1.0" y="1.0" z="1.0" />
+          </rotationAxis>
+        </MenuBar>
+        <ListView fx:id="typeSLessonList" layoutX="893.0" layoutY="323.0" onDragDetected="#handleOnDragDetected" onDragDone="#handleOnDragDone" prefHeight="146.0" prefWidth="228.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="895.0" layoutY="476.0" text="E Lessons:" />
+        <ListView fx:id="typeELessonList" layoutX="894.0" layoutY="505.0" onDragDetected="#handleOnDragDetected" onDragDone="#handleOnDragDone" prefHeight="145.5" prefWidth="228.0" />
+        <Label font="$x3" layoutX="8.0" layoutY="155.0" prefWidth="159.3333740234375" text="Create A Course:" textFill="$x4" />
+        <Label font="$x2" layoutX="9.0" layoutY="182.0" prefHeight="21.0" prefWidth="93.0" text="Course Title:" />
+        <TextField fx:id="courseTitle" layoutX="8.0" layoutY="203.0" prefWidth="186.99996948242188" promptText="enter course title" />
+        <Label layoutX="5.0" layoutY="458.0" prefHeight="58.0" prefWidth="192.0" text="Select units you would like to include in this Course." wrapText="true">
+          <font>
+            <Font size="14.0" fx:id="x5" />
+          </font>
+          <textFill>
+            <Color blue="0.376" green="0.376" red="0.376" fx:id="x6" />
+          </textFill>
+        </Label>
+        <CheckBox layoutX="9.0" layoutY="551.0" mnemonicParsing="false" text="Unit 1" />
+        <CheckBox layoutX="11.0" layoutY="573.0" mnemonicParsing="false" text="Unit2" />
+        <CheckBox layoutX="11.0" layoutY="597.0" mnemonicParsing="false" text="Unit 3" />
+        <CheckBox layoutX="10.0" layoutY="621.0" mnemonicParsing="false" text="Unit 4" />
+        <TreeView id="lessons" layoutX="3.0" layoutY="311.0" prefHeight="137.0" prefWidth="187.0" />
+        <Label font="$x5" layoutX="5.0" layoutY="253.0" prefHeight="58.0" prefWidth="192.0" text="Select units you would like to remove from this Course." textFill="$x6" wrapText="true" />
+        <Label font="$x1" layoutX="5.0" layoutY="242.0" prefWidth="130.0" text="Units In Course:" />
+        <ComboBox fx:id="courseList" layoutX="9.0" layoutY="203.0" onAction="#selectCourse" prefHeight="21.0" prefWidth="186.99996948242188" promptText="select course to edit">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

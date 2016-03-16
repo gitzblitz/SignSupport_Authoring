@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="679.0" prefHeight="679.0" prefWidth="1134.0" xmlns:fx="http://javafx.com/fxml" fx:controller="scltsl.LessonController">
+  <children>
+    <MenuBar blendMode="DARKEN" minHeight="21.0" pickOnBounds="true" prefHeight="29.0" prefWidth="571.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" useSystemMenuBar="true" AnchorPane.rightAnchor="286.0" AnchorPane.topAnchor="15.0">
+      <rotationAxis>
+        <Point3D x="1.0" y="1.0" z="1.0" />
+      </rotationAxis>
+    </MenuBar>
+    <Line endX="17.0" endY="525.0" layoutX="175.0" layoutY="199.0" startX="17.0" startY="-117.0" />
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="893.0" layoutY="112.0" prefWidth="61.0" text="Videos">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="894.0" layoutY="389.0" text="Pictures" />
+    <Button layoutX="1006.0" layoutY="76.0" mnemonicParsing="false" onAction="#uploadFile" prefHeight="24.0" prefWidth="114.0" text="Upload" />
+    <AnchorPane layoutX="197.0" layoutY="62.0" minHeight="58.0" minWidth="364.0" prefHeight="58.0" prefWidth="364.0000999999975">
+      <children>
+        <Line endX="36.0" endY="525.0" layoutX="650.0" layoutY="111.0" startX="36.0" startY="-117.0" />
+        <Label layoutX="7.0" layoutY="104.0" prefHeight="21.0" prefWidth="105.78076171875" text="Lesson Title:">
+          <font>
+            <Font name="System Bold" size="14.0" fx:id="x2" />
+          </font>
+        </Label>
+        <TextField fx:id="l_title" layoutX="113.0" layoutY="104.0" prefWidth="200.0" promptText="enter lesson title" />
+        <Label font="$x2" layoutX="406.0" layoutY="104.0" prefHeight="21.0" prefWidth="105.78076171875" text="Lesson Type:" />
+        <TextField fx:id="l_type" layoutX="512.0" layoutY="104.0" prefWidth="130.0" promptText="enter  lesson type" />
+        <Label layoutX="232.0" layoutY="68.0" prefWidth="159.3333740234375" text="Create Lessons">
+              <font>
+                <Font name="System Bold Italic" size="18.0" fx:id="x3" />
+              </font>
+              <textFill>
+                <Color blue="0.400" green="0.000" red="0.031" fx:id="x4" />
+              </textFill>
+            </Label>
+        <ComboBox fx:id="lessonList" layoutX="113.0" layoutY="104.0" onAction="#selectLesson" prefHeight="21.0" prefWidth="200.0" promptText="select lesson to edit">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <ComboBox fx:id="lessonTypeList" layoutX="512.0" layoutY="104.0" onAction="#selectLessonType" prefHeight="21.0" prefWidth="130.0" promptText="select lesson type">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <ImageView fitHeight="70" fitWidth="70" layoutX="130.0" layoutY="11.0"  onMouseClicked="#saveLesson"  pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/save button.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+            <ImageView cache="true" fitHeight="70" fitWidth="70" layoutX="380.0" layoutY="14.0"  onMouseClicked="#deleteLesson"  pickOnBounds="true" preserveRatio="true">
+             <image>
+                <Image url="@icons/delete button.png" preserveRatio="false" smooth="false" />
+            </image>
+            </ImageView>
+            <ImageView fitHeight="70" fitWidth="70" layoutX="14.0" layoutY="10.0" onMouseClicked="#backToCourse" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@icons/back button.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+             <ImageView cache="true" fitHeight="70" fitWidth="70" layoutX="490.0" layoutY="14.0"  onMouseClicked="#previewLesson" pickOnBounds="true" preserveRatio="true">
+             <image>
+                <Image url="@icons/preview button.png" preserveRatio="false" smooth="false" />
+             </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+    <Label layoutX="5.0" layoutY="175.0" prefWidth="159.3333740234375" text="Welcome Trainer!" textFill="#080066">
+      <font>
+        <Font name="System Bold Italic" size="18.0" />
+      </font>
+    </Label>
+    <Label id="lessonList" alignment="TOP_LEFT" layoutX="15.0" layoutY="204.0" prefHeight="95.0" prefWidth="178.0" text="Tip: Drag and drop uploaded resources to workstation to create a new lesson." wrapText="true" />
+    <ImageView fitHeight="103.08125915468678" fitWidth="186.99998474121094" layoutX="6.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@icons/Logo.PNG" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <ScrollPane layoutX="893.0" layoutY="414.0" prefHeight="255.0" prefWidth="228.0">
+      <content>
+        <AnchorPane id="Content" fx:id="picturePane" minHeight="0.0" minWidth="0.0" prefHeight="254.9998779296875" prefWidth="226.0" />
+      </content>
+    </ScrollPane>
+    <ScrollPane fx:id="lessonScroll" layoutX="199.0" layoutY="205.0" prefHeight="474.0" prefWidth="670.0">
+      <content>
+        <AnchorPane id="Content" fx:id="lessonPane" minHeight="0.0" minWidth="0.0" prefHeight="428.0" prefWidth="667.0">
+          <children>
+            <Label fx:id="lessonDescription" font="$x2" layoutX="13.0" layoutY="45.0" prefHeight="21.0" prefWidth="145.0" text="Lesson Description:" />
+            <Label fx:id="taskDecription" font="$x2" layoutX="13.0" layoutY="152.0" prefHeight="21.0" prefWidth="145.0" text="Task Description:" />
+            <Label fx:id="taskSteps" font="$x2" layoutX="13.0" layoutY="243.0" prefHeight="21.0" prefWidth="145.0" text="Task Steps" />
+            <Label fx:id="firstStepLabel" font="$x2" layoutX="59.0" layoutY="263.0" prefHeight="21.0" prefWidth="82.0" text="Step 1:" />
+            <Rectangle fx:id="ldDropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="23.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+              <effect>
+                <BoxBlur />
+              </effect>
+            </Rectangle>
+            <Rectangle fx:id="tdDropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="133.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+              <effect>
+                <BoxBlur />
+              </effect>
+            </Rectangle>
+            <Rectangle fx:id="s1DropRegion" arcHeight="13.0" arcWidth="136.0" fill="TRANSPARENT" height="80.0" layoutX="165.0" layoutY="243.0" onDragDropped="#handleOnDragDropped" onDragOver="#handleOnDragOver" smooth="false" stroke="BLACK" strokeDashOffset="10.0" strokeLineCap="ROUND" width="80.0">
+              <effect>
+                <BoxBlur />
+              </effect>
+            </Rectangle>
+            <Button id="button" fx:id="newStep" layoutX="59.0" layoutY="323.0" onAction="#newStep" text="new step" />
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <ListView id="videos" fx:id="videoList" editable="true" layoutX="893.0" layoutY="139.0" onDragDetected="#handleOnDragDetected" onDragDone="#handleOnDragDone" prefHeight="241.0" prefWidth="228.0" />
+    <Label layoutX="893.0" layoutY="76.0" prefWidth="92.7152099609375" text="Resources:">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Label>
+    <Label fx:id="status" alignment="CENTER" layoutX="10.0" layoutY="626.0" prefHeight="42.29290771484375" prefWidth="172.0" text="READY">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

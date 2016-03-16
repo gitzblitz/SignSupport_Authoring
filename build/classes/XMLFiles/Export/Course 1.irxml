@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lesson>
+	<lesson_id>10</lesson_id>
+	<lesson_type>E</lesson_type>
+	<lesson_title>Test ududu</lesson_title>
+	<lesson_description>
+		<video>/video/E/BED INTRUDER - ORIGINAL AND REMIX</video>
+		<video>/video/E/The best vines of the world 2013! - from YouTube by Offliberty</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<image>/shared_images/chadjamie</image>
+			<image>/shared_images/IMG_20131121_0021529</image>
+		</task_description>
+		<step_1>
+			<video>/video/E/BED INTRUDER - ORIGINAL AND REMIX</video>
+		</step_1>
+		<step_2>
+			<video>/video/E/Sweet Brown - Original Report and Autotune Remix</video>
+		</step_2>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>04</lesson_id>
+	<lesson_type>S</lesson_type>
+	<lesson_title>Test 7</lesson_title>
+	<lesson_description>
+		<video>/video/S/WorstDeathScene_df76_w_1.3gp</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video/S/VID-20130911-WA007.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/chadjamie.jpg</image>
+		</step_1>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>05</lesson_id>
+	<lesson_type>E</lesson_type>
+	<lesson_title>Test 8</lesson_title>
+	<lesson_description>
+		<image>/shared_images/chadjamie.jpg</image>
+	</lesson_description>
+	<task>
+		<task_description>
+			<image>/shared_images/IMG-20131119-00477.jpg</image>
+		</task_description>
+		<step_1>
+			<image>/shared_images/20683_603025806391175_345319513_n.jpg</image>
+		</step_1>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>07</lesson_id>
+	<lesson_type>S</lesson_type>
+	<lesson_title>Test 10</lesson_title>
+	<lesson_description>
+		<video>/video/S/723867_515103535196723_6966_n.mp4</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<image>/shared_images/chadjamie.jpg</image>
+			<video>/video/S/722802_4770952636535_1850989429_n.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/IMG_20131121_0021529.jpg</image>
+		</step_1>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>01</lesson_id>
+	<lesson_type>O</lesson_type>
+	<lesson_title>Test 1</lesson_title>
+	<lesson_description>
+		<video>/video/O/Ab Sculpt.avi</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video/O/722095_10200395316140855_2125810150_n.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/chadjamie.jpg</image>
+			<video>/video/O/10GeorgeCarlin_36ca_w_1.3gp</video>
+		</step_1>
+		<step_2>
+			<image>/shared_images/20683_603025806391175_345319513_n.jpg</image>
+		</step_2>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>02</lesson_id>
+	<lesson_type>S</lesson_type>
+	<lesson_title>Test 2</lesson_title>
+	<lesson_description>
+		<video>/video/S/Fat Burning Cardio.avi</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video/S/723867_515103535196723_6966_n.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/chadjamie.jpg</image>
+			<image>/shared_images/IMG-20131119-00477.jpg</image>
+			<image>/shared_images/20683_603025806391175_345319513_n.jpg</image>
+			<video>/video/S/Fat Burning Cardio.avi</video>
+		</step_1>
+		<step_2>
+			<image>/shared_images/chadjamie.jpg</image>
+			<video>/video/S/6 minute abs.avi</video>
+		</step_2>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>03</lesson_id>
+	<lesson_type>E</lesson_type>
+	<lesson_title>Test 3</lesson_title>
+	<lesson_description>
+		<video>/video/E/Fat Burning Cardio.avi</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video/E/10GeorgeCarlin_36ca_w_1.3gp</video>
+		</task_description>
+		<step_1>
+			<video>/video/E/722095_10200395316140855_2125810150_n.mp4</video>
+			<image>/shared_images/chadjamie.jpg</image>
+			<image>/shared_images/IMG_20131121_0021529.jpg</image>
+		</step_1>
+		<step_2>
+			<image>/shared_images/IMG-20131119-00477.jpg</image>
+			<image>/shared_images/20683_603025806391175_345319513_n.jpg</image>
+		</step_2>
+	</task>
+</lesson>
+
+<unit>
+	<unit_title type="text">Unit 1</unit_title>
+	<unit_id>01</unit_id>
+	<lesson_place_holder>01</lesson_place_holder>
+	<lesson_place_holder>02</lesson_place_holder>
+	<lesson_place_holder>03</lesson_place_holder>
+</unit>
+
+<unit>
+	<unit_title type="text">Unit 2</unit_title>
+	<unit_id>02</unit_id>
+	<lesson_place_holder>02</lesson_place_holder>
+	<lesson_place_holder>03</lesson_place_holder>
+	<lesson_place_holder>03</lesson_place_holder>
+</unit>
+
+<unit>
+	<unit_title type="text">Unit 3</unit_title>
+	<unit_id>03</unit_id>
+	<lesson_place_holder>04</lesson_place_holder>
+	<lesson_place_holder>05</lesson_place_holder>
+	<lesson_place_holder>07</lesson_place_holder>
+	<lesson_place_holder>03</lesson_place_holder>
+	<lesson_place_holder>10</lesson_place_holder>
+</unit>
+
+<course xmlns="http://www.w3.org/2005/Atom">
+	<course_id>01</course_id>
+	<course_title type="text">Course 1</course_title>
+	<unit_place_holder>01</unit_place_holder>
+	<unit_place_holder>02</unit_place_holder>
+	<unit_place_holder>03</unit_place_holder>
+</course>

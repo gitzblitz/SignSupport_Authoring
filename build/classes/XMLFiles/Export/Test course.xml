@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<course xmlns="http://www.w3.org/2005/Atom" course_id="01" course_title="Test course">
+	<unit unit_title="Word" unit_id="02">
+	<lesson lesson_title="Test 3" lesson_id="05" lesson_type="S">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>/video//Click on introduction of lesson</video>
+<vid_caption>Click on introduction of lesson</vid_caption>
+	</screen>
+	<screen>
+		<screenID>lesson_description_2</screenID>
+		<video>/video//DCCT structure</video>
+<vid_caption>DCCT structure</vid_caption>
+	</screen>
+	<screen>
+		<screenID>lesson_description_3</screenID>
+		<video>/video//DCCT hierarchy</video>
+<vid_caption>DCCT hierarchy</vid_caption>
+	</screen>
+	<screen>
+		<screenID>task_description2</screenID>
+		<video>/video//Task description</video>
+<vid_caption>Task description</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<video>/video//Task 1 - look for e-learner icon</video>
+<vid_caption>Task 1 - look for e-learner icon</vid_caption>
+		<image>/shared_images/e-learner</image>
+	</screen>
+	<screen>
+		<screenID>step_2</screenID>
+		<video>/video//Task 2 - Categories (O, E , S)</video>
+<vid_caption>Task 2 - Categories (O, E , S)</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_3</screenID>
+		<video>/video//Task 3 - Password</video>
+<vid_caption>Task 3 - Password</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_4</screenID>
+		<video>/video//Task 4 - choose S3 our company</video>
+<vid_caption>Task 4 - choose S3 our company</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_5</screenID>
+		<video>/video//Task 5 - Open Word</video>
+<vid_caption>Task 5 - Open Word</vid_caption>
+		<image>/shared_images/word_icon</image>
+	</screen>
+	<screen>
+		<screenID>step_6</screenID>
+		<video>/video//Task 6 - How to open MS Word</video>
+<vid_caption>Task 6 - How to open MS Word</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_7</screenID>
+		<video>/video//Task 7 - New document</video>
+<vid_caption>Task 7 - New document</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_8</screenID>
+		<video>/video//Task 8 - Save document</video>
+<vid_caption>Task 8 - Save document</vid_caption>
+		<image>/shared_images/quickAccessRibbon_save</image>
+	</screen>
+		</lesson>
+	</unit>
+</course>

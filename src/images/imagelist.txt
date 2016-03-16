@@ -1,0 +1,43 @@
+
+C:\Users\gngethe\Desktop\S3 Graphics\addShape_dropdown.png
+C:\Users\gngethe\Desktop\S3 Graphics\close_button_red.png
+C:\Users\gngethe\Desktop\S3 Graphics\close_printPreview.png
+C:\Users\gngethe\Desktop\S3 Graphics\close_word_office_button.png
+C:\Users\gngethe\Desktop\S3 Graphics\e-learner.jpg
+C:\Users\gngethe\Desktop\S3 Graphics\FontToolBox.png
+C:\Users\gngethe\Desktop\S3 Graphics\Insert_smartArt.png
+C:\Users\gngethe\Desktop\S3 Graphics\print.png
+C:\Users\gngethe\Desktop\S3 Graphics\print_preview.png
+C:\Users\gngethe\Desktop\S3 Graphics\quickAccessRibbon_save.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_complete.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_controlArrows.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_designToolbar.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_edit_hierarchy.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_hierarchy.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_Marketing.png
+C:\Users\gngethe\Desktop\S3 Graphics\smartArt_ToolBox.png
+C:\Users\gngethe\Desktop\S3 Graphics\word_icon.png
+C:\Users\gngethe\Desktop\S3 Graphics\wordArt_heading_company.png
+C:\Users\gngethe\Desktop\S3 Graphics\WordArt_icon.png
+C:\Users\gngethe\Desktop\shared_images\addShape_dropdown.png
+C:\Users\gngethe\Desktop\shared_images\close_button_red.png
+C:\Users\gngethe\Desktop\shared_images\close_printPreview.png
+C:\Users\gngethe\Desktop\shared_images\close_word_office_button.png
+C:\Users\gngethe\Desktop\shared_images\e-learner.jpg
+C:\Users\gngethe\Desktop\shared_images\e-learner.png
+C:\Users\gngethe\Desktop\shared_images\FontToolBox.png
+C:\Users\gngethe\Desktop\shared_images\Insert_smartArt.png
+C:\Users\gngethe\Desktop\shared_images\print.png
+C:\Users\gngethe\Desktop\shared_images\print_preview.png
+C:\Users\gngethe\Desktop\shared_images\quickAccessRibbon_save.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_complete.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_controlArrows.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_designToolbar.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_edit_hierarchy.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_hierarchy.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_Marketing.png
+C:\Users\gngethe\Desktop\shared_images\smartArt_ToolBox.png
+C:\Users\gngethe\Desktop\shared_images\word_icon.png
+C:\Users\gngethe\Desktop\shared_images\wordArt_heading_company.png
+C:\Users\gngethe\Desktop\shared_images\WordArt_icon.png
+/Users/User/Desktop/shared_images/e-learner.png

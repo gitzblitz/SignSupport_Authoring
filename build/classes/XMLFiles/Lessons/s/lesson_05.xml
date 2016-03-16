@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lesson lesson_title="Test 3" lesson_id="05" lesson_type="S">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Click on introduction of lesson.mp4</video>
+<vid_caption>Click on introduction of lesson</vid_caption>
+	</screen>
+	<screen>
+		<screenID>lesson_description_2</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\DCCT structure.mp4</video>
+<vid_caption>DCCT structure</vid_caption>
+	</screen>
+	<screen>
+		<screenID>lesson_description_3</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\DCCT hierarchy.mp4</video>
+<vid_caption>DCCT hierarchy</vid_caption>
+	</screen>
+	<screen>
+		<screenID>task_description_0</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task description.mp4</video>
+<vid_caption>Task description</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_1</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 1 - look for e-learner icon.mp4</video>
+<vid_caption>Task 1 - look for e-learner icon</vid_caption>
+		<image>C:\Users\gngethe\Desktop\S3 Graphics\e-learner.jpg</image>
+	</screen>
+	<screen>
+		<screenID>step_2</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 2 - Categories (O, E , S).mp4</video>
+<vid_caption>Task 2 - Categories (O, E , S)</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_3</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 3 - Password.mp4</video>
+<vid_caption>Task 3 - Password</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_4</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 4 - choose S3 our company.mp4</video>
+<vid_caption>Task 4 - choose S3 our company</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_5</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 5 - Open Word.mp4</video>
+<vid_caption>Task 5 - Open Word</vid_caption>
+		<image>C:\Users\gngethe\Desktop\S3 Graphics\word_icon.png</image>
+	</screen>
+	<screen>
+		<screenID>step_6</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 6 - How to open MS Word.mp4</video>
+<vid_caption>Task 6 - How to open MS Word</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_7</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 7 - New document.mp4</video>
+<vid_caption>Task 7 - New document</vid_caption>
+	</screen>
+	<screen>
+		<screenID>step_8</screenID>
+		<video>C:\Users\gngethe\Desktop\S3 videos\Task 8 - Save document.mp4</video>
+<vid_caption>Task 8 - Save document</vid_caption>
+		<image>C:\Users\gngethe\Desktop\S3 Graphics\quickAccessRibbon_save.png</image>
+	</screen>
+</lesson>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lesson>
+	<lesson_id>08</lesson_id>
+	<lesson_type>S</lesson_type>
+	<lesson_title>Test 11</lesson_title>
+	<lesson_description>
+		<video>/video/S/723867_515103535196723_6966_n.mp4</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video/S/723835_118378848344427_112875034_n.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/chadjamie.jpg</image>
+			<image>/shared_images/IMG_20131121_0021529.jpg</image>
+		</step_1>
+		<step_2>
+			<image>/shared_images/IMG-20131119-00477.jpg</image>
+			<image>/shared_images/20683_603025806391175_345319513_n.jpg</image>
+		</step_2>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>07</lesson_id>
+	<lesson_type>S</lesson_type>
+	<lesson_title>Test 10</lesson_title>
+	<lesson_description>
+		<video>/video/S/723867_515103535196723_6966_n.mp4</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<image>/shared_images/chadjamie.jpg</image>
+			<video>/video/S/722802_4770952636535_1850989429_n.mp4</video>
+		</task_description>
+		<step_1>
+			<image>/shared_images/IMG_20131121_0021529.jpg</image>
+		</step_1>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>13</lesson_id>
+	<lesson_type>E</lesson_type>
+	<lesson_title>Presentations</lesson_title>
+	<lesson_description>
+		<video>/video//Special Keys introduction</video>
+		<image>/shared_images/Screenshot_2013-11-20-22-11-07_galaxys4_black_portrait</image>
+		<video>/video//Special Keys examples</video>
+		<video>/video/E/Files and media intro 1</video>
+	</lesson_description>
+	<task>
+		<task_description>
+			<video>/video//Special keys - task description</video>
+		</task_description>
+		<step_1>
+			<video>/video//Task 1</video>
+		</step_1>
+		<step_2>
+			<video>/video//Task 2</video>
+			<video>/video/E/Files and media intro 3</video>
+		</step_2>
+	</task>
+</lesson>
+
+<lesson>
+	<lesson_id>11</lesson_id>
+	<lesson_type>E</lesson_type>
+	<lesson_title>Files and folders 2</lesson_title>
+</lesson>
+
+<lesson>
+	<lesson_id>12</lesson_id>
+	<lesson_type>O</lesson_type>
+	<lesson_title>Special Keys</lesson_title>
+</lesson>
+
+<unit>
+	<unit_title type="text">IT Basics</unit_title>
+	<unit_id>04</unit_id>
+	<lesson_place_holder>07</lesson_place_holder>
+	<lesson_place_holder>08</lesson_place_holder>
+	<lesson_place_holder>11</lesson_place_holder>
+	<lesson_place_holder>12</lesson_place_holder>
+	<lesson_place_holder>13</lesson_place_holder>
+</unit>
+
+<course xmlns="http://www.w3.org/2005/Atom">
+	<course_id>03</course_id>
+	<course_title type="text">Dcct2</course_title>
+	<unit_place_holder>04</unit_place_holder>
+</course>

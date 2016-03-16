@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lesson lesson_title="Special keys" lesson_id="08" lesson_type="O">
+	<screen>
+		<screenID>lesson_description_1</screenID>
+		<video>/Users/User/Desktop/video/Roles and responsibility.mp4</video>
+<vid_caption>/Users/User/Desktop/video/Roles and responsibility</vid_caption>
+	</screen>
+	<screen>
+		<screenID>lesson_description_2</screenID>
+		<image>/Users/User/Desktop/shared_images/e-learner.png</image>
+	</screen>
+</lesson>
+

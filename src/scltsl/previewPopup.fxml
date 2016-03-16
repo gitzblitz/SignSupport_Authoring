@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="674.0" xmlns:fx="http://javafx.com/fxml" fx:controller="scltsl.PreviewPopupController">
+  <children>
+    <AnchorPane id="PlayerPane" fx:id="playerPane" blendMode="DARKEN" layoutX="14.0" layoutY="40.0" prefHeight="373.0" prefWidth="646.0">
+      <children>
+        <ImageView fx:id="imageView" fitHeight="373.0" fitWidth="497.3333333333333" pickOnBounds="true" preserveRatio="true" />
+      </children>
+    </AnchorPane>
+    <Button fx:id="playOrPause" layoutX="114.0" layoutY="449.0" mnemonicParsing="false" onAction="#pauseOrPlay" prefHeight="30.0" prefWidth="101.0" text="Play/Pause" />
+    <Button id="" layoutX="244.0" layoutY="449.0" mnemonicParsing="false" onAction="#next" prefHeight="30.0" prefWidth="69.0" text="&gt;&gt;" />
+    <Button id="" layoutX="14.0" layoutY="450.0" mnemonicParsing="false" onAction="#previous" prefHeight="30.0" prefWidth="69.0" text="&lt;&lt;" />
+    <Button id="" layoutX="362.0" layoutY="449.0" mnemonicParsing="false" onAction="#stop" prefHeight="30.0" prefWidth="69.0" text="Stop" />
+    <Label fx:id="lessonTitle" layoutX="14.0" layoutY="14.0" text="lesson Title" />
+    <Label fx:id="resourceTitle" layoutX="21.0" layoutY="413.0" text="resource name" />
+  </children>
+</AnchorPane>
